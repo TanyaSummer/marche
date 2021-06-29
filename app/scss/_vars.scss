@@ -31,7 +31,7 @@ $bg:#f6f6f6;
     padding: 12px 26px;
     @extend %roboto-400;
     box-shadow: 0px 7px 20px 0px rgba(192, 192, 192, 0.3);
-    
+    cursor: pointer;
 }
 %checkbox-hidden,
 %radio-hidden{
