@@ -8,34 +8,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="css/style.min.css">
   <link rel="stylesheet" href="css/blog-one.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
   {% include 'app/module/_header/_header.html' %}
 <main class="main">
-
-  <section class="top">
-    <div class="top__container" style="background-image: url('images/login-bg.jpg');">
-      <div class="container">
-        <h2 class="top__title title">
-          BLOG DETAILS
-        </h2>
-        <div class="breadcrumbs">
-          <ul class="breadcrumbs__list">
-            <li class="breadcrumbs__item">
-              <a class="breadcrumbs__link" href="#">
-                Home
-              </a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a class="breadcrumbs__link" href="#">
-                Blog page
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+  {% include 'app/module/_top/_top.html' %}
+  
 
   <section class="blog-page blog-one">
     <div class="container">

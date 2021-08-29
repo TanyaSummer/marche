@@ -28,6 +28,7 @@ function nunjucks() {
 function styles() {
   return src('app/scss/*.scss')
     .pipe(scss({outputStyle: 'expanded'}))
+    
     .pipe(rename({
       suffix : '.min'
     }))
